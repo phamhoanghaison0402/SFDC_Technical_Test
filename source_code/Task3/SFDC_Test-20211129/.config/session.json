@@ -1,0 +1,17 @@
+{
+    "metadata_url": "https://d5j000002vx33eag-dev-ed.my.salesforce.com/services/Soap/m/46.0", 
+    "apex_url": "https://d5j000002vx33eag-dev-ed.my.salesforce.com/services/Soap/s/46.0", 
+    "project name": "SFDC_Test", 
+    "time_stamp": "2021-11-29 11:10:36", 
+    "session_id": "00D5j000002VX33!ARQAQC6PSGfF.s9FWSrXQ7ckkLnPFf9OAgAXrY9uiWqdBT2o9RDG1aNrItmReuLws9BtMFMVJTX5BT.H7J1fU4949.j9Z4Bb", 
+    "headers": {
+        "Authorization": "OAuth 00D5j000002VX33!ARQAQC6PSGfF.s9FWSrXQ7ckkLnPFf9OAgAXrY9uiWqdBT2o9RDG1aNrItmReuLws9BtMFMVJTX5BT.H7J1fU4949.j9Z4Bb", 
+        "Content-Type": "application/json; charset=UTF-8", 
+        "Accept": "application/json"
+    }, 
+    "user_id": "0055j000002HRk2AAG", 
+    "rest_url": "https://d5j000002vx33eag-dev-ed.my.salesforce.com/services/data/v46.0", 
+    "partner_url": "https://d5j000002vx33eag-dev-ed.my.salesforce.com/services/Soap/u/46.0", 
+    "success": true, 
+    "instance_url": "https://d5j000002vx33eag-dev-ed.my.salesforce.com"
+}

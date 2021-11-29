@@ -1,0 +1,12 @@
+{
+    "folders": [
+        {
+            "folder_exclude_patterns": [], 
+            "path": "/Users/son09/sfsource/SFDC_Test-20211128", 
+            "file_exclude_patterns": [
+                "*.sublime-project", 
+                "package.zip"
+            ]
+        }
+    ]
+}

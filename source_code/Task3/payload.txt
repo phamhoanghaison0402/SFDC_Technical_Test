@@ -1,0 +1,32 @@
+//updateContact
+Payload
+- Method: PATCH
+- Request body:
+
+[   
+    {
+        "ContactId": "0035j000008sZU6AAM1",
+        "ContactName": "Johnny 7777"
+
+    },
+	{	
+        "ContactId": "0035j000009aDdYAAU",
+        "ContactName": "hhhhhhhh"
+
+    }
+]
+
+//createContact
+Payload
+- Method: POST
+- Request body:
+{
+"firstname":"son test rest api",
+"lastname":"pham",
+"email":"restapi@gmail.com",
+"phone":"123456789"
+}
+
+//getAll
+Payload
+- Method: Get

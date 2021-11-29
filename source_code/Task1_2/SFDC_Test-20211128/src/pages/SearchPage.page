@@ -1,0 +1,46 @@
+<apex:page controller="SearchController">
+	<apex:form>
+		<apex:inputText value="{!searchText}" id="searchText"/>
+		<apex:commandButton action="{!searchRecord}" value="Search"/>
+
+		<table>
+			<tr>
+				<th>Record Name</th>
+				<th>Record Type</th>
+				<th>Click to open</th>
+			</tr>
+			<apex:repeat value="{!recordResults}" var="res">
+				<tr>
+					<td>{!res.RecordName}</td>
+					<td>{!res.RecordType}</td>
+					<td>
+						<apex:commandButton onclick="viewDetail('{!res.RecordId}', '{!res.RecordType}'); return false;" value="View" />
+					</td>
+				</tr>
+			</apex:repeat>
+		</table>
+	</apex:form>
+
+	<style>
+		table, td, th {  
+		  border: 1px solid #ddd;
+		  text-align: left;
+		}
+
+		table {
+		  border-collapse: collapse;
+		  width: 100%;
+		}
+
+		th, td {
+		  padding: 15px;
+		}
+	</style>
+
+	<script type="text/javascript">	
+		function viewDetail(recordId, recordType)
+		{
+			window.open('/apex/ViewDetailPage?id='+recordId+'&type='+recordType);
+		}
+	</script>
+</apex:page>
